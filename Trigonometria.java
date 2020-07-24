@@ -46,7 +46,7 @@ class Trigonometria {
             //Verifica que se eligio la Funcion Seno y la ejecuta.
             if(option_f == 1){
                 result = Math.sin(angle);
-                System.out.println("El resultado de la Funcion Seno de " + angle_g + " es: " + result);
+                System.out.println("El resultado de la Funcion Seno de: " + angle_g + " es: " + result);
             }
 
             //Verifica que se eligio la Funcion Coseno y la ejecuta.
@@ -72,20 +72,20 @@ class Trigonometria {
 
             //Verifica que se eligio la Funcion inversa de Seno y la ejecuta.
             if(option_f == 1){
-                result = Math.asin(angle);
+                result = Math.asin(angle_g);
                 System.out.println("El resultado de la Funcion Inversa de Seno de: "+ angle_g + " es: " + result);
             }
 
             //Verifica que se eligio la Funcion inversa de Coseno y la ejecuta.
             else if(option_f ==2){
-                result = Math.acos(angle);
-                System.out.println("El resultado de la Funcion Inversa de Coseno de: "+ angle_g + " es:" + result);
+                result = Math.acos(angle_g);
+                System.out.println("El resultado de la Funcion Inversa de Coseno de: "+ angle_g + " es: " + result);
             }
 
             //Verifica que se eligio la Funcion inversa de Tangente y la ejecuta.
             else if(option_f == 3){
-                result = Math.atan(angle);
-                System.out.println("El resultado de la Funcion Inversa de Tangente de: "+ angle_g + " es:" + result);
+                result = Math.atan(angle_g);
+                System.out.println("El resultado de la Funcion Inversa de Tangente de: "+ angle_g + " es: " + result);
             }
         }
 
@@ -99,19 +99,19 @@ class Trigonometria {
 
             //Verifica que se eligio la Funcion Hiperbolica de Seno y la ejecuta.
             if(option_f == 1){
-                result = Math.sinh(angle);;
+                result = Math.sinh(angle_g);;
                 System.out.println("El resultado de la Funcion Hiperbolica de Seno de: "+ angle_g + " es: " + result);
             }
 
             //Verifica que se eligio la Funcion Hiperbolica de Coseno y la ejecuta.
             else if(option_f ==2){
-                result = Math.cosh(angle);
+                result = Math.cosh(angle_g);
                 System.out.println("El resultado de la Funcion Hiperbolica de Coseno de: "+ angle_g + " es: " + result);
             }
 
             //Verifica que se eligio la Funcion Hiperbolica de Tangente y la ejecuta.
             else if(option_f == 3){
-                result = Math.tanh(angle);
+                result = Math.tanh(angle_g);
                 System.out.println("El resultado de la Funcion Hiperbolica de Tangente de: "+ angle_g + " es: " + result);
             }
         }    
