@@ -61,6 +61,25 @@ class Trigonometria {
                 result = Math.atan(angle);
                 System.out.println("El resultado de la Funcion Inversa de Tangente es:" + result);
             }
+        }
+        if(option_c == 3){
+            System.out.println("ingrese la funcion que desea calcular");
+            System.out.println("1. Funcion Hiperbolica de Seno");
+            System.out.println("2. Funcion Hiperbolica de Coseno");
+            System.out.println("3. Funcion Hiperbolica de Tangente");
+            option_f = in.nextInt();
+            if(option_f == 1){
+                result = Math.sinh(angle);;
+                System.out.println("El resultado de la Funcion Hiperbolica de Seno es:" + result);
+            }
+            else if(option_f ==2){
+                result = Math.cosh(angle);
+                System.out.println("El resultado de la Funcion Hiperbolica de Coseno es:" + result);
+            }
+            else if(option_f == 3){
+                result = Math.tanh(angle);
+                System.out.println("El resultado de la Funcion Hiperbolica de Tangente es:" + result);
+            }
         }    
   }
 }
