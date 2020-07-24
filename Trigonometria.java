@@ -28,7 +28,7 @@ class Trigonometria {
         angle = Math.toRadians(angle_g);
 
         //Solicita el tipo de funcion que se desea calcular
-        System.out.println("El angulo en radianes a calcular es: " + angle);
+        System.out.println("El angulo a calcular es: " + angle_g);
         System.out.println("Tipo de función que desea calcular");
         System.out.println("1. Funciones trigonometricas");
         System.out.println("2. Funciones trigonometricas inversas");
